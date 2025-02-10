@@ -205,12 +205,13 @@ _For more examples, please refer to the [Documentation](http://get.ct.ws)_
 - [x] Add Android Support (WebGUI - Android WebSystem)
 - [x] Add iOS Support (pwa)
 - [ ] Add iOS Support (Official App) / Shortcut (soon)
-- [ ] Fully Added / Most of the Ericsson SW/HW DB into LSDB---------------------------------------------------------------------------------------|
-- [ ] Fully Added / Most of the Motorola SW/HW DB into LSDB---------------------------------------------------------------------------------------|
-- [ ] Fully Added / Most of the Huawei SW/HW DB into LSDB---------------- In the process of developing the infrastructure of the LavaShell DB&LIB |
-- [ ] Fully Added / Most of the Nokia SW/HW DB into LSDB------------------------------------------------------------------------------------------|
-- [ ] Fully Added / Most of the ZTE SW/HW DB into LSDB--------------------------------------------------------------------------------------------|
+- [ ] Fully Added / Most of the Ericsson SW/HW DB into LSDB *
+- [ ] Fully Added / Most of the Motorola SW/HW DB into LSDB *
+- [ ] Fully Added / Most of the Huawei SW/HW DB into LSDB *
+- [ ] Fully Added / Most of the Nokia SW/HW DB into LSDB *
+- [ ] Fully Added / Most of the ZTE SW/HW DB into LSDB *
 - [x]≃ Fully Added / Most of the LavaSite Solutions SW/HW DB into LSDB
+* = In the process of developing the infrastructure of the LavaShell DB&LIB
 - [x] Add "components" document to easily copy & paste sections of the readme
 - [x] Multi-language Support
     - [x] English
