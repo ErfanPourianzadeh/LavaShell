@@ -54,20 +54,19 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Screenshot 2025-02-09 154935](https://github.com/user-attachments/assets/0093aa30-db3a-45a8-9b1b-4b06a3d4c8f4)
++ A Picture from LSDBLIB v003 - APPv2
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+LavaShell project is a continuously updated resource and database in the field of network and telecommunication equipment and microwave radio infrastructure. also known as its domain or "LavaShell, RF General Directory"
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Here's why this project is helpful:
+* IT and telecommunication specialists can continue their work more easily on telecommunication sites with free access to the database of units...
+* This project is constantly being updated and is being repackaged in LavaShell clients.
+* Using open source artificial intelligence technology that will be released in the future, it is part of the LSDBLIB library analysis system. Formally, LavaShell uses complex and classified algorithms of its library to use large files :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+LavaShell services are available to users for free. Also, the published versions are available for Windows, Linux and Android.
 
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Use the `http://get.ct.ws` to get started.
 
 
 
@@ -75,14 +74,17 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+* ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+* ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+* ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
+* ![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515)
+* ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+* ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+* ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,19 +99,52 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+* tkinter
   ```sh
-  npm install npm@latest -g
+  pip install tkinter
+  or
+  pip install tk
   ```
 
-### Installation
+  * tkinter
+  ```sh
+  pip install tkinter
+  or
+  pip install tk
+  ```
+
+* OS & Test:
+- ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) +7
+- ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
+- ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) +10
+- ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+- ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white) (only pwa or subsite)
+
+Tested In: 
+----------
+
+OS | Tested
+------------ | -------------
+Ubuntu 24.10 (Oracular Oriole)         |:heavy_check_mark:
+Debian 9 (Stretch)                      |:heavy_check_mark:
+Debian 10 (Buster)	                   |:heavy_check_mark:
+Debian 12 (bookworm)                   |:heavy_check_mark:
+Arch Linux                              |:heavy_check_mark:
+Windows 11/10/7                             |:heavy_check_mark:
+Windows Server 2022                             |:heavy_check_mark:
+Android 10/11/12/13/14/15/16                           |:heavy_check_mark:
+iOS 8/9/10/11/12/13/14/15/16/17/18/18.3                             |:heavy_check_mark:
+  
+
+### Installation (For Linux)
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Open Terminal in root
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/lava.git
    ```
 3. Install NPM packages
    ```sh
