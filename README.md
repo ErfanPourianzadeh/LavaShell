@@ -77,6 +77,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 * ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 * ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 * ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 * ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -85,6 +86,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 * ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+* ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white)
+* ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+* ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+* ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
+* ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+* ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+* ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+* ![Replit](https://img.shields.io/badge/Replit-DD1200?style=for-the-badge&logo=Replit&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,6 +109,7 @@ To get a local copy up and running follow these simple example steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 
+* ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 * tkinter
   ```sh
   pip install tkinter
@@ -107,11 +117,9 @@ This is an example of how to list things you need to use the software and how to
   pip install tk
   ```
 
-  * tkinter
+  * feedparser
   ```sh
-  pip install tkinter
-  or
-  pip install tk
+  pip install feedparser
   ```
 
 * OS & Test:
@@ -138,8 +146,13 @@ iOS 8/9/10/11/12/13/14/15/16/17/18/18.3                             |:heavy_chec
   
 
 ### installation
-# (For Linux)
+# (For Linux/Windows/Android/iOS)
 
+- For Both Windows & Linux:
+  use this <li><a href="#installation">Installation</a></li> before using LavaShell Units.
+  
+# Linux
+ # Method (#1)
 _Below is an example of how you can instruct your audience on installing and setting up your LavaShell Full DB services. (for every Update)._
 
 1. Open Terminal in root
@@ -149,21 +162,26 @@ _Below is an example of how you can instruct your audience on installing and set
    gh release download <tag> -D <dest> -R <lavashell>/<LSDB_BASE_LIB_TEMP_>
    ```
 
-3. Install NPM packages
+3. for eg.
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+   gh release list -R cli/cli
+   gh release download v2.21.2 -D gh_v2.21.2 -R cli/cli
+   ```# download all assets from latest release to gh_latest directory
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+4. download all assets from latest release to `gh_latest` directory
+   ```js
+   gh release download -p "*" -D gh_latest -R cli/cli
+   ```
+ -Note:
+    ```js
+    If you are in a git repository, gh release download <tag> will download all the assets from the latest release to the current directory. No need to specify -R -D.
+    If the tag is not specified, it will download the latest release but complain that one of the -A or -p flags is required. In such case gh release download -p "*" can be used.
+    ```
+
+# Method (#2)
+- Lets make it easy by just download the whole LSDB TEMP's by selecting all and download it in your download manager (for me its *FDM*)
+![ezgif-5576dc629287cd](https://github.com/user-attachments/assets/9e3206f7-530b-480c-aa6a-65219ebd7b56)
++ A Picture from LSDBLIB v003
 
 
 
@@ -172,22 +190,33 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+_For more examples, please refer to the [Documentation](http://get.ct.ws)_
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [x] Add Changelog
 - [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Add Windows Support (Py)
+- [ ] Add Windows Support (Batch) - reason: MB-CLI or LS-CLI is not a good sw for using on LSBASE. 1-bad ui (who use cmd for this lol) 😆 and in next version it will be add ;)
+- [x] Add Linux Support (Python)
+- [ ] Add Linux Support (Bash/Sh) - reason: same windows batch reason // it will added soon...
+- [x] Add Android Support (armeabi v7a / arm64 v8a / x86-64) or APK
+- [x] Add Android Support (WebGUI - Android WebSystem)
+- [x] Add iOS Support (pwa)
+- [ ] Add iOS Support (Official App) / Shortcut (soon)
+- [ ] Fully Added / Most of the Ericsson SW/HW DB into LSDB---------------------------------------------------------------------------------------|
+- [ ] Fully Added / Most of the Motorola SW/HW DB into LSDB---------------------------------------------------------------------------------------|
+- [ ] Fully Added / Most of the Huawei SW/HW DB into LSDB---------------- In the process of developing the infrastructure of the LavaShell DB&LIB |
+- [ ] Fully Added / Most of the Nokia SW/HW DB into LSDB------------------------------------------------------------------------------------------|
+- [ ] Fully Added / Most of the ZTE SW/HW DB into LSDB--------------------------------------------------------------------------------------------|
+- [x]≃ Fully Added / Most of the LavaSite Solutions SW/HW DB into LSDB
+- [x] Add "components" document to easily copy & paste sections of the readme
+- [x] Multi-language Support
+    - [x] English
+    - [x] Farsi (50% Done)
+
+     - And More Coming soon...
 
 See the [open issues](https://github.com/claxpoint/lavashell/issues) for a full list of proposed features (and known issues).
 
@@ -203,9 +232,22 @@ Distributed under the Unlicense License. Will be add soon by bypass.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Moein Nikchehre - 
+* ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) - moeinnikchehre@gmail.com
+- moeinnikchehre@gmail.com
+  
+* ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+- github.com/claxpoint - github.com/lavashell
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+* ![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)
+- @claxpoint
+
+* ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+- @claxpoint
+- My Channel: @moeinnetwork
+- LavaShell Channel: @lavashell
+
+
 
 
 
@@ -216,4 +258,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
- 
+* LavaShell DBLIB PACK (ShupXQL)
+  - h-icl
+  - launch
+  - others soon...
