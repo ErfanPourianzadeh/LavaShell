@@ -210,7 +210,7 @@ _For more examples, please refer to the [Documentation](http://get.ct.ws)_
 - [ ] Fully Added / Most of the Huawei SW/HW DB into LSDB *
 - [ ] Fully Added / Most of the Nokia SW/HW DB into LSDB *
 - [ ] Fully Added / Most of the ZTE SW/HW DB into LSDB *
-- [x]≃ Fully Added / Most of the LavaSite Solutions SW/HW DB into LSDB
+- [x] Fully Added / Most of the LavaSite Solutions SW/HW DB into LSDB ≃ (50% maybe 🥇😅)
 * = In the process of developing the infrastructure of the LavaShell DB&LIB
 - [x] Add "components" document to easily copy & paste sections of the readme
 - [x] Multi-language Support
