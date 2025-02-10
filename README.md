@@ -137,15 +137,18 @@ Android 10/11/12/13/14/15/16                           |:heavy_check_mark:
 iOS 8/9/10/11/12/13/14/15/16/17/18/18.3                             |:heavy_check_mark:
   
 
-### Installation (For Linux)
+### installation
+# (For Linux)
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can instruct your audience on installing and setting up your LavaShell Full DB services. (for every Update)._
 
 1. Open Terminal in root
-2. Clone the repo
+2. Use this commands. (This is for downloading all files (github release assets) from a specific github release.)
    ```sh
-   git clone https://github.com/lava.git
+   gh release list -R <lavashell>/<LSDB_BASE_LIB_TEMP_>
+   gh release download <tag> -D <dest> -R <lavashell>/<LSDB_BASE_LIB_TEMP_>
    ```
+
 3. Install NPM packages
    ```sh
    npm install
