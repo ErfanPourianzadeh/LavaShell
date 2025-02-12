@@ -55,7 +55,7 @@
 ## About The Project
 
 ![Screenshot 2025-02-09 154935](https://github.com/user-attachments/assets/0093aa30-db3a-45a8-9b1b-4b06a3d4c8f4)
-+ A Picture from LSDBLIB v003 - APPv2
++ A Picture from LSDBLIB v003 - APPv2 For Windows
 
 LavaShell project is a continuously updated resource and database in the field of network and telecommunication equipment and microwave radio infrastructure. also known as its domain or "LavaShell, RF General Directory"
 
