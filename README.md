@@ -198,7 +198,7 @@ _For more examples, please refer to the [Documentation](http://get.ct.ws)_
 - [x] Add Changelog
 - [x] Add back to top links
 - [x] Add Windows Support (Py)
-- [ ] Add Windows Support (Batch) - reason: MB-CLI or LS-CLI is not a good sw for using on LSBASE. 1-bad ui (who use cmd for this lol) 😆 and in next version it will be add ;)
+- [ ] Add Windows Support (Batch) - reason: MB-CLI or LS-CLI is not a good sw for using on LSBASE. 1-bad ui - no more support
 - [x] Add Linux Support (Python)
 - [ ] Add Linux Support (Bash/Sh) - reason: same windows batch reason // it will added soon...
 - [x] Add Android Support (armeabi v7a / arm64 v8a / x86-64) or APK
