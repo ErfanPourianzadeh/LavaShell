@@ -105,6 +105,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
+Note: LS003+LS004 is a downgrade without PACKS
+use LS005 on telegram (its updated and faster)
+
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -146,11 +149,20 @@ iOS 8/9/10/11/12/13/14/15/16/17/18/18.3                             |:heavy_chec
   
 
 ### installation
-# (For Linux/Windows/Android/iOS)
+# (For Linux/Windows/Android/iOS/Telegram)
+
+# Telegram Bot (LavaShell ChatBot AI Researcher/Engine + BayonaEngine ARSe)
+1. open @lavashell_bot
+2. start the bot
+3. enter this:
+   ```sh
+   dlsw ls/com
+   ```
+4. DONE! now you can access to all of the lavashell engine commands!
 
 - For Both Windows & Linux:
   use this <li><a href="#installation">Installation</a></li> before using LavaShell Units.
-  
+
 # Linux
  # Method (#1)
 _Below is an example of how you can instruct your audience on installing and setting up your LavaShell Full DB services. (for every Update)._
