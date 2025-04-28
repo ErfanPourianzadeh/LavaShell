@@ -464,3 +464,4 @@ eds/GUJ_Ericsson_MW_Visibility_Report_May_21
 e/MoShell+BBU/22.0y
 h/iMasterNCE+WebLCT/YDRAY_V100R023C10SPC101_windows-x86-64
 h/iMasterNCE+WebLCT/V100R023C10SPC101_windows-x86-64
+ls/JRE/1.8.0_351
